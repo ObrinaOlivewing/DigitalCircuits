@@ -18,8 +18,8 @@ module MUX_4x1_Using_2x1(
     
     wire P, Q;
     
-    MUX_2x1 mux_2x1_P(I[1:0],S[0],P); // P = (~S[0]&I[0])|(S[0]&I[1])
-    MUX_2x1 mux_2x1_Q(I[3:2],S[0],Q); // Q = (~S[0]&I[0])|(S[0]&I[1])
-    MUX_2x1 mux_2x1_Y({Q,P},S[1],Y);  // Y = (~S[1]&P)|(S[1]&Q)
+    Day1_2x1MUX mux_2x1_P(I[1:0],S[0],P); // P = (~S[0]&I[0])|(S[0]&I[1])
+    Day1_2x1MUX mux_2x1_Q(I[3:2],S[0],Q); // Q = (~S[0]&I[0])|(S[0]&I[1])
+    Day1_2x1MUX mux_2x1_Y({Q,P},S[1],Y);  // Y = (~S[1]&P)|(S[1]&Q)
     
 endmodule

@@ -10,7 +10,7 @@ module xorUsingMux(
     wire bBar;
     assign  bBar = ~b;
     
-    simple2x1MUX XOR(b ,bBar ,a , y);
+    Day2_simple2x1Mux XOR(b ,bBar ,a , y);
     
     
 endmodule
