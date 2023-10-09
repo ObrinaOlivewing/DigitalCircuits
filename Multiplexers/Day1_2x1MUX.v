@@ -7,7 +7,7 @@
 
 
 
-module MUX_2x1(
+module Day1_2x1MUX(
     input wire [1:0]I,
     input wire S,
     output reg Y

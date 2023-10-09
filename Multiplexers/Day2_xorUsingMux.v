@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 
-module xorUsingMux(
+module Day2_xorUsingMux(
     input b,
     input a,
     output y

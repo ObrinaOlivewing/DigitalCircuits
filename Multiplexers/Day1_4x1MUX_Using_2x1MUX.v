@@ -10,7 +10,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module MUX_4x1_Using_2x1(
+module Day1_4x1MUX_Using_2x1MUX(
     input wire [3:0]I,
     input wire [1:0]S,
     output  Y

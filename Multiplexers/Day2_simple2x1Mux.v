@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 
-module simple2x1MUX(
+module Day2_simple2x1Mux(
     input wire i0,
     input wire i1,
     input wire s,
