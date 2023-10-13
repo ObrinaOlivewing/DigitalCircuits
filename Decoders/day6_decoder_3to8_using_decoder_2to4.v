@@ -1,5 +1,6 @@
 `timescale 1ns / 1ps
 
+//3x8 decoder
 
 module day6_decoder_3to8_using_decoder_2to4(
     input e,

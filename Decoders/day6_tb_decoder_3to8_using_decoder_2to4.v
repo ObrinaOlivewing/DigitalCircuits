@@ -1,5 +1,6 @@
 `timescale 1ns / 1ps
 
+//testbench for 3x8 decoder 
 
 module day6_tb_decoder_3to8_using_decoder_2to4();
 reg e,a,b,c;
